@@ -1,6 +1,8 @@
 import React,{useEffect, useState} from 'react';
 import './App.css';
 
+
+// this is to define columns
 const columns = [
     {
       key:'roomDetails',
@@ -43,6 +45,8 @@ const App = () => {
     return (
         <div>
             <h2>App</h2>
+            {
+              messages.length > 0 &&
             <div className='table'>
         <div className='table__header'>
           {
@@ -63,6 +67,7 @@ const App = () => {
           }
         </div>
       </div>
+}
         </div>
     );
 };
