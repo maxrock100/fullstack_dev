@@ -1,0 +1,24 @@
+.table{
+    border: 1px solid black;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .table__header{
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .row{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+  }
+  
+  .column{
+    padding: 5px;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
